@@ -7,7 +7,7 @@ class APIService {
   constructor() {
     // MUDE AQUI PARA SUA URL DO RENDER:
     // this.baseURL = 'http://localhost:3000/api'; // Desenvolvimento
-    this.baseURL = 'http://localhost:3000/api'; // Mude para seu Render URL
+    this.baseURL = 'https://cl-tech-core-backend.onrender.com/api'; // Produção Render
     
     this.token = this.getToken();
   }
