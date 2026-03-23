@@ -11,7 +11,7 @@ const authRoutes = require('./routes/auth');
 const projectRoutes = require('./routes/projects');
 const fileRoutes = require('./routes/files');
 const compileRoutes = require('./routes/compile');
-const errorHandler = require('./middleware/errorHandler');
+const { errorHandler } = require('./middleware/errorHandler');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
